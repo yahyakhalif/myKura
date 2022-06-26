@@ -1,0 +1,8 @@
+{
+    "name": "mykura/mykura",
+    "description": "description",
+    "require": {
+        "php": ">=8.0.11",
+        "africastalking/africastalking": "^3.0"
+    }
+}
