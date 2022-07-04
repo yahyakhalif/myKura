@@ -3,6 +3,7 @@
     "description": "description",
     "require": {
         "php": ">=8.0.11",
-        "africastalking/africastalking": "^3.0"
+        "africastalking/africastalking": "^3.0",
+        "guzzlehttp/guzzle": "^7.4"
     }
 }

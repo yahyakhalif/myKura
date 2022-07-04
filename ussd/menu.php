@@ -1,4 +1,9 @@
 <?php
+use GuzzleHttp\Client;
+$client = new client([
+    'base_uri'=>'http://localhost:5000',
+]);
+
 // Read the variables sent via POST from our API
 $sessionId   = $_POST["sessionId"];
 $serviceCode = $_POST["serviceCode"];
@@ -19,10 +24,12 @@ else if ($text == "1") {
 else if($text == "1*1") { 
     $response = "CON Confirm your vote: \n";
     $response .= "1. Ryan Mukiti \n";
+    // $response = $client->get("http://localhost:5000/api/candidate/post/62bd7d15dbef04f28f85c743");
 } 
 else if($text == "1*2") { 
     $response = "CON Confirm your vote: \n";
     $response .= "1. Lewis Mutoni \n";
+
 }
 else if(($text == "1*1*1") || ($text == "1*2*1")) { 
     $response = "CON Position: Member of Parliament \n";
