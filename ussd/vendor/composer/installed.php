@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a966f4452e4ba142f33cc86de982189bd8feab95',
+        'reference' => '70a5966f6e6640d2c972ebeb8df2b83f058153de',
         'name' => 'mykura/mykura',
         'dev' => true,
     ),
@@ -52,7 +52,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a966f4452e4ba142f33cc86de982189bd8feab95',
+            'reference' => '70a5966f6e6640d2c972ebeb8df2b83f058153de',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(
